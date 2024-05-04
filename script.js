@@ -11,11 +11,7 @@ btn.addEventListener('click',()=>{
 
 	let lis=document.createElement('li')
 
-	lis.innerHTML=`
-
-	<p>${todo.value}</p>
-	
-	`
+	lis.textContent=`${todo.value}`
 
 		todo.value=''
 	list.appendChild(lis)
