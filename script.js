@@ -9,7 +9,7 @@ const list=document.getElementById('todoList')
 btn.addEventListener('click',()=>{
 
 
-	let lis=document.createElement('li')
+	const lis=document.createElement('li')
 
 	lis.textContent=`${todo.value}`
 
