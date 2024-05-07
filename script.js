@@ -13,8 +13,10 @@ btn.addEventListener('click',()=>{
 
 	lis.textContent=`${todo.value}`
 
-		todo.value=''
 	list.appendChild(lis)
+
+		todo.value=''
+	
 
 	
 
