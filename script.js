@@ -9,11 +9,11 @@ const list=document.getElementById('todoList')
 btn.addEventListener('click',()=>{
 
 
-	const lis=document.createElement('li')
+	const li=document.createElement('li')
 
-	lis.textContent=`${todo.value}`
+	li.textContent=`${todo.value}`
 
-	list.appendChild(lis)
+	list.appendChild(li)
 
 		todo.value=''
 	
